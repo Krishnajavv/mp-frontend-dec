@@ -32,7 +32,7 @@ const removeVideoHistory= async(id)=>{
 
       <div className='container mt-5 mb-5 d-flex justify-content-between'>
         <h2>Watch-History</h2>
-        <Link style={{textDecoration:'none', color:'darkred',fontSize:'25px'}}>Back to Home<i className='fa-solid fa-arrow-rotate-left fa-beat-fade'></i></Link>
+        <Link to={'/home'} style={{textDecoration:'none', color:'darkred',fontSize:'25px'}}>Back to Home<i className='fa-solid fa-arrow-rotate-left fa-beat-fade'></i></Link>
       </div>
       <table className='table mb-5 shadow container w-100 '>
         <thead>
