@@ -2,7 +2,7 @@
 // upload new video
 
 import { commonAPI } from "./commonAPI";
-import {SERVER_URL} from "./serverurl";
+import { SERVER_URL } from "./serverurl"
 
 export const uploadVideoAPI=async(video)=>{
     return await commonAPI("POST",`${SERVER_URL}/allVideos`,video)
